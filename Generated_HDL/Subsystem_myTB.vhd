@@ -106,15 +106,15 @@ BEGIN
         wait for 21 ns;
         reset <= '0';
         wait for 11 ns;
-        In2_1 <= X"3f800000";
+        In2_1 <= X"00001100";
         wait for 4000 ns;
         In2_1 <= X"00000000";
         wait for 4000 ns;
-        In2_1 <= X"40400000";
+        In2_1 <= X"10000000";
         wait for 20000 ns;
         In2_1 <= X"00000000";
         wait for 20000 ns;
-        In2_1 <= X"40400000";
+        In2_1 <= X"F0000000";
         wait for 20000 ns;
         In2_1 <= X"00000000";
         wait for 20000 ns;
